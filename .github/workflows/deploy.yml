@@ -20,7 +20,7 @@
       runs-on: ubuntu-latest
       defaults:                # 추가된 부분
         run:
-          working-directory: ./cat-dancing-page # 루트 디렉토리에서 실행
+          working-directory: . # 루트 디렉토리에서 실행
       steps:
         - name: Checkout
           uses: actions/checkout@v4
